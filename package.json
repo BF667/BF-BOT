@@ -1,0 +1,16 @@
+{
+  "name": "Hikari",
+  "version": "1.0.0",
+  "description": "Base by Hikari Archive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hikari Archive",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "awesome-phonenumber": "^2.64.0",
+    "pino": "^7.0.5"
+  }
+}
