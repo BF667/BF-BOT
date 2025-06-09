@@ -1,8 +1,7 @@
 /*
-Base Whatsapp Bot
-By Hikari Archive
+BF Whatsapp Bot
+By BF667
 
-Youtube: @HikariArchive
 */
 
 const { default: makeWASocket, DisconnectReason, makeInMemoryStore, jidDecode, proto, getContentType, useMultiFileAuthState, downloadContentFromMessage } = require("@whiskeysockets/baileys")
@@ -39,7 +38,7 @@ if (!Hikari.authState.creds.registered) {
 const phoneNumber = await question('Masukan Nomor Bot :\n');
 let code = await Hikari.requestPairingCode(phoneNumber);
 code = code?.match(/.{1,4}/g)?.join("-") || code;
-console.log(`Pairing Kode Anda :`, code);
+console.log(`Pairing Kode kamu :`, code);
 }
 
 store.bind(Hikari.ev)
