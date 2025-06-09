@@ -8,7 +8,7 @@ Youtube: @HikariArchive
 //~~~~~Setting Global~~~~~//
 
 global.owner = ["6283150958207"] // Nomor Pemilik
-global.bot = "628xxxx" // Nomor Bot
+global.bot = "6282135214781" // Nomor Bot
 global.namabot = "BF BOT" // Nama Bot
 global.namaown = "Rico A." // Nama owner
 
