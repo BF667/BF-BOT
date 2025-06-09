@@ -1,2 +1,2 @@
 # BF-BOT
-base bot wa 
+simple bot wa 
